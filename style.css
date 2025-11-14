@@ -17,3 +17,15 @@ color: aliceblue;
     width: 150px;
     height: 150px;
 }
+
+.links {
+
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+
+}
+a {
+    color: black;
+}
