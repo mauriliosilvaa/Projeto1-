@@ -40,3 +40,13 @@ a {
     font-family:'Times New Roman', Times, serif ;
     padding: 20px;
 }
+
+.books {
+    display: flex;
+    justify-content: space-between;
+}
+
+.books img {
+    width: 150px;
+    height: 150px;
+}
