@@ -1,3 +1,11 @@
+body{
+    margin: auto;
+    align-items: center;
+    height: 100%;
+
+
+}
+
 .top {
 display: flex;
 flex-direction: row;
@@ -24,6 +32,8 @@ color: aliceblue;
     justify-content: space-evenly;
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
+    margin-top: 20px;
+   
 
 }
 a {
@@ -31,6 +41,7 @@ a {
 }
 
 .into {
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -39,14 +50,34 @@ a {
     font-size: 24px;
     font-family:'Times New Roman', Times, serif ;
     padding: 20px;
+    margin-top: 20px;
+    
 }
 
 .books {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .books img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 300px;
+}
+
+.fei {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+
+    }
+
+h2 {
+    
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 50%;
+    align-items: center;
+    text-align: center;
 }
