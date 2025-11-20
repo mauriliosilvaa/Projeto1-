@@ -114,3 +114,19 @@ h2 {
 #te {
     list-style: none;
 }
+
+.final {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 30px;
+    
+}
+.final img {
+    width: 150px;
+    height: 150px;
+}
