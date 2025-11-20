@@ -103,3 +103,14 @@ h2 {
     list-style: none;
     padding: 2px;
 }
+
+.sites {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#te {
+    list-style: none;
+}
